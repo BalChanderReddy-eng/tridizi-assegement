@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    color: white;
+    padding: 20px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-actions button {
+    margin-left: 10px;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.hero {
+    padding: 60px;
+    background: #f5ebe0;
+    text-align: left
+}
+
+.hero h1 {
+    font-size: 48px;
+    text-align: left;
+}
+
+.hero .right {
+    width: 300px; /* Adjust image size */
+    height: auto;
+    position: absolute;
+    right: 50px;
+    top: 80%;
+        transform: translateY(-50%);
+}
+
+
+.explore {
+    padding: 12px 24px;
+    background: brown;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px; /* Adds rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a lifting effect */
+    transition: all 0.3s ease; /* Smooth transition on hover */
+}
+
+.explore:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* More lift effect on hover */
+    transform: translateY(-3px); /* Lifts the button slightly on hover */
+}
+
+
+.stats {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    background: #e6d5c3;
+    /* text-align: left; */
+    padding: 20px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    background: black;
+    padding: 20px;
+    align-items: center;
+}
+
+.gallery-item {
+    text-align: center;
+}
+
+.gallery img {
+    width: auto;
+    height: 200px; /* Keep the height consistent */
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.image-text {
+    margin-top: 8px;
+    color: white;
+    font-size: 14px;
+}
+
+
+
+
+.gallery img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+:right{
+    padding-right: 50px;
+}
