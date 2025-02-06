@@ -39,7 +39,7 @@ body {
 }
 
 .hero .right {
-    width: 300px; /* Adjust image size */
+    width: 300px; 
     height: auto;
     position: absolute;
     right: 50px;
@@ -54,14 +54,14 @@ body {
     color: white;
     border: none;
     cursor: pointer;
-    border-radius: 25px; /* Adds rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a lifting effect */
-    transition: all 0.3s ease; /* Smooth transition on hover */
+    border-radius: 25px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); \
+    transition: all 0.3s ease; 
 }
 
 .explore:hover {
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* More lift effect on hover */
-    transform: translateY(-3px); /* Lifts the button slightly on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
+    transform: translateY(-3px); 
 }
 
 
@@ -70,7 +70,7 @@ body {
     justify-content: center;
     gap: 40px;
     background: #e6d5c3;
-    /* text-align: left; */
+    
     padding: 20px;
 }
 
@@ -89,7 +89,7 @@ body {
 
 .gallery img {
     width: auto;
-    height: 200px; /* Keep the height consistent */
+    height: 200px; 
     object-fit: cover;
     border-radius: 8px;
 }
